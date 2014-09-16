@@ -28,9 +28,10 @@ You must hard code in the genre id in step 4 of Rotten Flix.  The genre id is th
 Initial Ideas For Improvement
 ===========
 
+Implement CasperJS
+
 Handle movies ratings in batches rather than all at once in a linear method.  
 
 Open several page objects to handle the lifting, rather than one page object that navigates to Rotten Tomatoes for the searching.
 
 Add sorting functionality from highest to lowest when adding movie ratings to the final results array
-
