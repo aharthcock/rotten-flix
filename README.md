@@ -6,7 +6,7 @@ Page automation for getting Netflix movie ratings from Rotten Tomatoes
 Disclaimer
 ===========
 
-Rotten Flix is still in beta, is prone to the occasional crash, is very slow, and begs for improvements, however, it still works so feel free to modify and implement enhancmenets where you see fit.
+Rotten Flix is still in beta, is prone to the occasional crash, is very slow, and begs for improvements, however, it still works so feel free to modify and implement enhancements where you see fit.
 
 What It Does
 ===========
