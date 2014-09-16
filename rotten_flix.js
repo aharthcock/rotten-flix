@@ -35,8 +35,8 @@ setTimeout(function() {
     console.log("### STEP 2: Log into Netflix");
 
     page.evaluate(function() {
-        document.getElementById('email').value = "ferrellkenneth@hotmail.com";
-        document.getElementById('password').value = "oneson";
+        document.getElementById('email').value = "**";
+        document.getElementById('password').value = "**";
         document.getElementById('RememberMe').checked = false;
         document.getElementById('login-form-contBtn').click();
         });
