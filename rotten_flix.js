@@ -35,8 +35,8 @@ setTimeout(function() {
     console.log("### STEP 2: Log into Netflix");
 
     page.evaluate(function() {
-        document.getElementById('email').value = "**";
-        document.getElementById('password').value = "**";
+        document.getElementById('email').value = "your netflix email";
+        document.getElementById('password').value = "your netflix password";
         document.getElementById('RememberMe').checked = false;
         document.getElementById('login-form-contBtn').click();
         });
@@ -63,13 +63,13 @@ page.onClosing = function(closingPage) {
     console.log('Netflix page has closed! URL: ' + closingPage.url);
 };
 
-// Step 4
+// Step 4 - you must hard code the four digit genre id found in the url on netflix for a particular genre
 setTimeout(function() {
     console.log('---------------------------------');
     console.log("### STEP 4: Url api request");
     var url2 = page.evaluate(function() {
     var baseUrl      = "http://www.netflix.com/api/shakti/4704ae20/wigenre?"
-        genreId      = "genreId=" + 1365 + "&",
+        genreId      = "genreId=" + 1365 + "&",//hard coded genre id
         getAllMovies = "from=0&to=100000";
         requestUrl   = baseUrl + genreId + getAllMovies
         return requestUrl;
