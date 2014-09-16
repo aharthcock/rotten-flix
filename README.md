@@ -1,4 +1,4 @@
-rotten_flix
+Rotten Flix
 ===========
 
 Page automation for getting Netflix movie ratings from Rotten Tomatoes
