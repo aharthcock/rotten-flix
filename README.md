@@ -24,3 +24,13 @@ You must have a Netflix account in order to use this program.
 You must hard code in your Netflix username and password.
 
 You must hard code in the genre id in step 4 of Rotten Flix.  The genre id is the unique identifier Netflix uses for a genre. This can be found in the url when you click on a category in Netflix, ex. http://www.netflix.com/WiAltGenre?agid=8883.
+
+Initial Ideas For Improvement
+===========
+
+Handle movies ratings in batches rather than all at once in a linear method.  
+
+Open several page objects to handle the lifting, rather than one page object that navigates to Rotten Tomatoes for the searching.
+
+Add sorting functionality from highest to lowest when adding movie ratings to the final results array
+
